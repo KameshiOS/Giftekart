@@ -19,6 +19,12 @@
 		847B19761FDD48350098ED48 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B19751FDD48350098ED48 /* CartViewController.swift */; };
 		847B19781FDD48430098ED48 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B19771FDD48430098ED48 /* HistoryViewController.swift */; };
 		847B197A1FDD484E0098ED48 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B19791FDD484E0098ED48 /* ProfileViewController.swift */; };
+		847B197C1FDD51200098ED48 /* LabelDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B197B1FDD51200098ED48 /* LabelDesign.swift */; };
+		847B197F1FDD541A0098ED48 /* WishlistCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B197E1FDD541A0098ED48 /* WishlistCollectionViewCell.swift */; };
+		847B19811FDD796E0098ED48 /* ButtonDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B19801FDD796E0098ED48 /* ButtonDesign.swift */; };
+		847B19831FDD7DC40098ED48 /* ShoppingCartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B19821FDD7DC40098ED48 /* ShoppingCartTableViewCell.swift */; };
+		847B19851FDD82BB0098ED48 /* CartDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B19841FDD82BB0098ED48 /* CartDetailTableViewCell.swift */; };
+		847B19871FDD961D0098ED48 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B19861FDD961D0098ED48 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +63,12 @@
 		847B19751FDD48350098ED48 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
 		847B19771FDD48430098ED48 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		847B19791FDD484E0098ED48 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		847B197B1FDD51200098ED48 /* LabelDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelDesign.swift; sourceTree = "<group>"; };
+		847B197E1FDD541A0098ED48 /* WishlistCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistCollectionViewCell.swift; sourceTree = "<group>"; };
+		847B19801FDD796E0098ED48 /* ButtonDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDesign.swift; sourceTree = "<group>"; };
+		847B19821FDD7DC40098ED48 /* ShoppingCartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartTableViewCell.swift; sourceTree = "<group>"; };
+		847B19841FDD82BB0098ED48 /* CartDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartDetailTableViewCell.swift; sourceTree = "<group>"; };
+		847B19861FDD961D0098ED48 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +119,7 @@
 		847B193C1FDD43F00098ED48 /* Giftekart */ = {
 			isa = PBXGroup;
 			children = (
+				847B197D1FDD54070098ED48 /* Cell */,
 				847B196F1FDD45900098ED48 /* View */,
 				847B196E1FDD45810098ED48 /* Model */,
 				847B19701FDD45970098ED48 /* Controller */,
@@ -141,6 +154,7 @@
 		847B196E1FDD45810098ED48 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				847B19861FDD961D0098ED48 /* Extension.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -148,6 +162,8 @@
 		847B196F1FDD45900098ED48 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				847B197B1FDD51200098ED48 /* LabelDesign.swift */,
+				847B19801FDD796E0098ED48 /* ButtonDesign.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -162,6 +178,16 @@
 				847B19791FDD484E0098ED48 /* ProfileViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		847B197D1FDD54070098ED48 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				847B197E1FDD541A0098ED48 /* WishlistCollectionViewCell.swift */,
+				847B19821FDD7DC40098ED48 /* ShoppingCartTableViewCell.swift */,
+				847B19841FDD82BB0098ED48 /* CartDetailTableViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,9 +328,15 @@
 				847B19741FDD482B0098ED48 /* WishlistViewController.swift in Sources */,
 				847B19761FDD48350098ED48 /* CartViewController.swift in Sources */,
 				847B19781FDD48430098ED48 /* HistoryViewController.swift in Sources */,
+				847B19851FDD82BB0098ED48 /* CartDetailTableViewCell.swift in Sources */,
+				847B19831FDD7DC40098ED48 /* ShoppingCartTableViewCell.swift in Sources */,
 				847B197A1FDD484E0098ED48 /* ProfileViewController.swift in Sources */,
+				847B197F1FDD541A0098ED48 /* WishlistCollectionViewCell.swift in Sources */,
 				847B193E1FDD43F00098ED48 /* AppDelegate.swift in Sources */,
+				847B19871FDD961D0098ED48 /* Extension.swift in Sources */,
+				847B197C1FDD51200098ED48 /* LabelDesign.swift in Sources */,
 				847B19721FDD48210098ED48 /* HomeViewController.swift in Sources */,
+				847B19811FDD796E0098ED48 /* ButtonDesign.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
