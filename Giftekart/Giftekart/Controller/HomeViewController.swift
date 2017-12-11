@@ -14,5 +14,6 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        tabBarController?.tabBar.items?[2].badgeValue = "3"
     }
 }

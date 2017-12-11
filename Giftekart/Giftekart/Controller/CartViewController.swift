@@ -17,10 +17,12 @@ class CartViewController: UIViewController, UITableViewDelegate, UITableViewData
         // Do any additional setup after loading the view.
         cartTableView.delegate = self
         cartTableView.dataSource = self
+        tabBarController?.tabBar.items?[2].badgeValue = nil
     }
     func numberOfSections(in tableView: UITableView) -> Int {
         return 2
     }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if section == 0 {
             return 2
