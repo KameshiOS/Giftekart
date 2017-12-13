@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DDB30A61B35F0D958DEF40B /* Pods_Giftekart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05878A31C21F94C9A61BBA43 /* Pods_Giftekart.framework */; };
+		840C86451FE189600027440F /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840C86441FE189600027440F /* ProfileTableViewCell.swift */; };
+		840C86471FE1973D0027440F /* MyOrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840C86461FE1973D0027440F /* MyOrderTableViewCell.swift */; };
+		840C86491FE197520027440F /* MyOrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840C86481FE197520027440F /* MyOrdersViewController.swift */; };
 		847B193E1FDD43F00098ED48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B193D1FDD43F00098ED48 /* AppDelegate.swift */; };
 		847B19431FDD43F00098ED48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847B19411FDD43F00098ED48 /* Main.storyboard */; };
 		847B19461FDD43F00098ED48 /* Giftekart.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 847B19441FDD43F00098ED48 /* Giftekart.xcdatamodeld */; };
@@ -25,6 +29,8 @@
 		847B19831FDD7DC40098ED48 /* ShoppingCartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B19821FDD7DC40098ED48 /* ShoppingCartTableViewCell.swift */; };
 		847B19851FDD82BB0098ED48 /* CartDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B19841FDD82BB0098ED48 /* CartDetailTableViewCell.swift */; };
 		847B19871FDD961D0098ED48 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B19861FDD961D0098ED48 /* Extension.swift */; };
+		A41BB126BE7A0A911B917ABD /* Pods_GiftekartUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8CAD0164F3ED538B732E7E2 /* Pods_GiftekartUITests.framework */; };
+		EB33B2906345DBA4690BF8F4 /* Pods_GiftekartTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 767107437649D95E2881DC32 /* Pods_GiftekartTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05878A31C21F94C9A61BBA43 /* Pods_Giftekart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Giftekart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D0C4990B18E949DB4FF2DA1 /* Pods-GiftekartUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiftekartUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GiftekartUITests/Pods-GiftekartUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		61A1D9F5465C23FDD6FDA195 /* Pods-GiftekartUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiftekartUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GiftekartUITests/Pods-GiftekartUITests.release.xcconfig"; sourceTree = "<group>"; };
+		658D9F7AC128CF1AE0B6A01E /* Pods-Giftekart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Giftekart.release.xcconfig"; path = "Pods/Target Support Files/Pods-Giftekart/Pods-Giftekart.release.xcconfig"; sourceTree = "<group>"; };
+		767107437649D95E2881DC32 /* Pods_GiftekartTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GiftekartTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		840C86441FE189600027440F /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		840C86461FE1973D0027440F /* MyOrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrderTableViewCell.swift; sourceTree = "<group>"; };
+		840C86481FE197520027440F /* MyOrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrdersViewController.swift; sourceTree = "<group>"; };
 		847B193A1FDD43F00098ED48 /* Giftekart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Giftekart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		847B193D1FDD43F00098ED48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		847B19421FDD43F00098ED48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -69,6 +83,10 @@
 		847B19821FDD7DC40098ED48 /* ShoppingCartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartTableViewCell.swift; sourceTree = "<group>"; };
 		847B19841FDD82BB0098ED48 /* CartDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartDetailTableViewCell.swift; sourceTree = "<group>"; };
 		847B19861FDD961D0098ED48 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		A240614C944314484F61FDD2 /* Pods-GiftekartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiftekartTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GiftekartTests/Pods-GiftekartTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B979F119AD2C816DFE374FAC /* Pods-Giftekart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Giftekart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Giftekart/Pods-Giftekart.debug.xcconfig"; sourceTree = "<group>"; };
+		CBC1958B1A2976A05C02F982 /* Pods-GiftekartTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiftekartTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GiftekartTests/Pods-GiftekartTests.release.xcconfig"; sourceTree = "<group>"; };
+		E8CAD0164F3ED538B732E7E2 /* Pods_GiftekartUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GiftekartUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DDB30A61B35F0D958DEF40B /* Pods_Giftekart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB33B2906345DBA4690BF8F4 /* Pods_GiftekartTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,12 +110,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A41BB126BE7A0A911B917ABD /* Pods_GiftekartUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E075934F47D8370B7C4DD95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B979F119AD2C816DFE374FAC /* Pods-Giftekart.debug.xcconfig */,
+				658D9F7AC128CF1AE0B6A01E /* Pods-Giftekart.release.xcconfig */,
+				A240614C944314484F61FDD2 /* Pods-GiftekartTests.debug.xcconfig */,
+				CBC1958B1A2976A05C02F982 /* Pods-GiftekartTests.release.xcconfig */,
+				4D0C4990B18E949DB4FF2DA1 /* Pods-GiftekartUITests.debug.xcconfig */,
+				61A1D9F5465C23FDD6FDA195 /* Pods-GiftekartUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		847B19311FDD43F00098ED48 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +137,8 @@
 				847B19541FDD43F00098ED48 /* GiftekartTests */,
 				847B195F1FDD43F00098ED48 /* GiftekartUITests */,
 				847B193B1FDD43F00098ED48 /* Products */,
+				7E075934F47D8370B7C4DD95 /* Pods */,
+				ACB163AB7E2E9707BB035B57 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -176,6 +212,7 @@
 				847B19751FDD48350098ED48 /* CartViewController.swift */,
 				847B19771FDD48430098ED48 /* HistoryViewController.swift */,
 				847B19791FDD484E0098ED48 /* ProfileViewController.swift */,
+				840C86481FE197520027440F /* MyOrdersViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -183,11 +220,23 @@
 		847B197D1FDD54070098ED48 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				840C86461FE1973D0027440F /* MyOrderTableViewCell.swift */,
 				847B197E1FDD541A0098ED48 /* WishlistCollectionViewCell.swift */,
 				847B19821FDD7DC40098ED48 /* ShoppingCartTableViewCell.swift */,
 				847B19841FDD82BB0098ED48 /* CartDetailTableViewCell.swift */,
+				840C86441FE189600027440F /* ProfileTableViewCell.swift */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		ACB163AB7E2E9707BB035B57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05878A31C21F94C9A61BBA43 /* Pods_Giftekart.framework */,
+				767107437649D95E2881DC32 /* Pods_GiftekartTests.framework */,
+				E8CAD0164F3ED538B732E7E2 /* Pods_GiftekartUITests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 847B19651FDD43F00098ED48 /* Build configuration list for PBXNativeTarget "Giftekart" */;
 			buildPhases = (
+				70A8E83550F94CA60FE74F02 /* [CP] Check Pods Manifest.lock */,
 				847B19361FDD43F00098ED48 /* Sources */,
 				847B19371FDD43F00098ED48 /* Frameworks */,
 				847B19381FDD43F00098ED48 /* Resources */,
+				5131E8084DECE8ED22A46B87 /* [CP] Embed Pods Frameworks */,
+				948B8427CD8C884B4C5CA0E0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,9 +266,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 847B19681FDD43F00098ED48 /* Build configuration list for PBXNativeTarget "GiftekartTests" */;
 			buildPhases = (
+				6BC26DCB476DDCE6209FB805 /* [CP] Check Pods Manifest.lock */,
 				847B194D1FDD43F00098ED48 /* Sources */,
 				847B194E1FDD43F00098ED48 /* Frameworks */,
 				847B194F1FDD43F00098ED48 /* Resources */,
+				74F826EEA8A843C6579E479B /* [CP] Embed Pods Frameworks */,
+				0B93C8DC6FB41B3B5C1B1878 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,9 +287,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 847B196B1FDD43F00098ED48 /* Build configuration list for PBXNativeTarget "GiftekartUITests" */;
 			buildPhases = (
+				3CC12CB02D9901DD04258802 /* [CP] Check Pods Manifest.lock */,
 				847B19581FDD43F00098ED48 /* Sources */,
 				847B19591FDD43F00098ED48 /* Frameworks */,
 				847B195A1FDD43F00098ED48 /* Resources */,
+				8CFB47EC20A79D895D889C2F /* [CP] Embed Pods Frameworks */,
+				010AECDB19F2668689B664C3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -319,20 +377,173 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		010AECDB19F2668689B664C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GiftekartUITests/Pods-GiftekartUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0B93C8DC6FB41B3B5C1B1878 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GiftekartTests/Pods-GiftekartTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CC12CB02D9901DD04258802 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GiftekartUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5131E8084DECE8ED22A46B87 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Giftekart/Pods-Giftekart-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Giftekart/Pods-Giftekart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BC26DCB476DDCE6209FB805 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GiftekartTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70A8E83550F94CA60FE74F02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Giftekart-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74F826EEA8A843C6579E479B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GiftekartTests/Pods-GiftekartTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CFB47EC20A79D895D889C2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GiftekartUITests/Pods-GiftekartUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		948B8427CD8C884B4C5CA0E0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Giftekart/Pods-Giftekart-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		847B19361FDD43F00098ED48 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				847B19461FDD43F00098ED48 /* Giftekart.xcdatamodeld in Sources */,
+				840C86451FE189600027440F /* ProfileTableViewCell.swift in Sources */,
 				847B19741FDD482B0098ED48 /* WishlistViewController.swift in Sources */,
 				847B19761FDD48350098ED48 /* CartViewController.swift in Sources */,
+				840C86471FE1973D0027440F /* MyOrderTableViewCell.swift in Sources */,
 				847B19781FDD48430098ED48 /* HistoryViewController.swift in Sources */,
 				847B19851FDD82BB0098ED48 /* CartDetailTableViewCell.swift in Sources */,
 				847B19831FDD7DC40098ED48 /* ShoppingCartTableViewCell.swift in Sources */,
 				847B197A1FDD484E0098ED48 /* ProfileViewController.swift in Sources */,
 				847B197F1FDD541A0098ED48 /* WishlistCollectionViewCell.swift in Sources */,
 				847B193E1FDD43F00098ED48 /* AppDelegate.swift in Sources */,
+				840C86491FE197520027440F /* MyOrdersViewController.swift in Sources */,
 				847B19871FDD961D0098ED48 /* Extension.swift in Sources */,
 				847B197C1FDD51200098ED48 /* LabelDesign.swift in Sources */,
 				847B19721FDD48210098ED48 /* HomeViewController.swift in Sources */,
@@ -500,13 +711,14 @@
 		};
 		847B19661FDD43F00098ED48 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B979F119AD2C816DFE374FAC /* Pods-Giftekart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FD5T6PM798;
+				DEVELOPMENT_TEAM = 6UV9A5QX2J;
 				INFOPLIST_FILE = Giftekart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.fashionexpress.Giftekart;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fashionexpress.Giftekar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -515,13 +727,14 @@
 		};
 		847B19671FDD43F00098ED48 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 658D9F7AC128CF1AE0B6A01E /* Pods-Giftekart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FD5T6PM798;
+				DEVELOPMENT_TEAM = 6UV9A5QX2J;
 				INFOPLIST_FILE = Giftekart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.fashionexpress.Giftekart;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fashionexpress.Giftekar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -530,6 +743,7 @@
 		};
 		847B19691FDD43F00098ED48 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A240614C944314484F61FDD2 /* Pods-GiftekartTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -547,6 +761,7 @@
 		};
 		847B196A1FDD43F00098ED48 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBC1958B1A2976A05C02F982 /* Pods-GiftekartTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -564,6 +779,7 @@
 		};
 		847B196C1FDD43F00098ED48 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D0C4990B18E949DB4FF2DA1 /* Pods-GiftekartUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -580,6 +796,7 @@
 		};
 		847B196D1FDD43F00098ED48 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61A1D9F5465C23FDD6FDA195 /* Pods-GiftekartUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
